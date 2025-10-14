@@ -39,3 +39,13 @@ if myName == "Vandad"
     || yourAge == 19{
     "my name is vandad and i'm 22 and your name is Foo..or..you are 19"
 }
+
+if (myName == "Vandad"
+    && myAge == 22)
+    &&
+    (yourName == "Foo"
+     || yourAge == 19){
+    "My name is Vandad and i'm 22 and your name is Foo..or..you are 19"
+}else {
+    "Hmmh i think i'm guessing alot"
+}
