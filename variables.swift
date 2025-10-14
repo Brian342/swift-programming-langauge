@@ -5,5 +5,12 @@ let myName = "James"
 // creates mutability i.e can be assigned again
 var yourName = "Paul"
 
-myName = yourName
-print(myName)
+var names = [
+    myName, 
+    yourName
+]
+names = ["Bla"]
+names.append("Bar")
+names.append("Baz")
+
+names
