@@ -59,3 +59,12 @@ func doSomethingComplicated(
 }
 doSomethingComplicated(with: 30)
 
+func getFullName(
+    firstName: String = "Foo",
+    lastName: String = "Bar"
+)-> String {
+    "\(firstName) \(lastName)"
+}
+getFullName()
+getFullName(firstName: "Baz")
+getFullName(lastName:   )
