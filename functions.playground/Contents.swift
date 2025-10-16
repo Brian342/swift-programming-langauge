@@ -67,4 +67,4 @@ func getFullName(
 }
 getFullName()
 getFullName(firstName: "Baz")
-getFullName(lastName:   )
+getFullName(lastName: "Foo")
