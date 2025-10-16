@@ -22,4 +22,26 @@ newPlusTwo(Value: 20)
 func customAdd(Value: Int, Value2: Int) ->Int{
     Value + Value2
 }
-customAdd(Value: 15, Value2: 20)
+let sumValue = customAdd(Value: 15, Value2: 20)
+
+// function not have external labels
+
+func customMinus(
+    _ lhs: Int,
+    _ rhs: Int
+)-> Int{
+    lhs - rhs
+}
+
+let MinusValue = customMinus(
+    20,
+    10
+)
+
+@discardableResult
+func myCustomAdd(
+    _ lhs: Int,
+    _ rhs: Int
+)-> Int{
+    lhs + rhs
+}
