@@ -45,3 +45,17 @@ func myCustomAdd(
 )-> Int{
     lhs + rhs
 }
+
+myCustomAdd(20, 30)
+
+// with is the external value
+func doSomethingComplicated(
+    with value: Int
+)->Int {
+    func mainLogic(value: Int) -> Int {
+        value + 2
+    }
+    return mainLogic(value: value + 3)
+}
+doSomethingComplicated(with: 30)
+
