@@ -30,3 +30,5 @@ customAdd(
 ) { (lhs, rhs) in
     lhs + rhs
 }
+
+customAdd(20, 30) { ($0 + $1) }
