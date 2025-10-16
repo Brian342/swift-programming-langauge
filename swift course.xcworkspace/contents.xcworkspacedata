@@ -5,6 +5,9 @@
       location = "group:Functions.swift">
    </FileRef>
    <FileRef
+      location = "group:functions.playground">
+   </FileRef>
+   <FileRef
       location = "group:if else.playground">
    </FileRef>
    <FileRef
