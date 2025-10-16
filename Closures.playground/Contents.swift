@@ -32,3 +32,14 @@ customAdd(
 }
 
 customAdd(20, 30) { ($0 + $1) }
+
+let ages = [30,20,19,40]
+ages.sorted(by: {(lhs:Int, rhs:Int)-> Bool in
+    lhs > rhs
+})
+
+
+let age = [30,20,19,40]
+age.sorted(by: >)
+
+// 1:45:39
