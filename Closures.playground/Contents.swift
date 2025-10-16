@@ -17,3 +17,16 @@ func customAdd(
     function(lhs, rhs)
 }
 
+customAdd(
+    20,
+    30
+) { (lhs: Int, rhs:Int) -> Int in
+        lhs + rhs
+}
+
+customAdd(
+    20,
+    30
+) { (lhs, rhs) in
+    lhs + rhs
+}
